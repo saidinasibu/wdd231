@@ -14,10 +14,10 @@ body {
 }
 
 header h1 {
-    display: flex;
     grid-column: 3 / 4;
     font-size: 100px;
     text-align: center;
+    display: flex;
     align-items: center;
     margin-left: 10px;
 }
@@ -37,17 +37,17 @@ nav {
     margin: 0 auto;
 }
 
-nav a:hover {
-    background-color: wheat;
-    color: #770303;
-}
-
 nav a {
     text-align: center;
     color: rgb(2, 9, 73);
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
+}
+
+nav a:hover {
+    background-color: wheat;
+    color: #770303;
 }
 
 #about {
@@ -68,8 +68,6 @@ nav a {
 }
 
 .card p {
-    align-items: center;
-    text-align: center;
     font-size: 20px;
 }
 
@@ -84,6 +82,7 @@ nav a {
 }
 
 .card a {
+    display: inline-block;
     background-color: #D19D0E;
     color: rgb(2, 9, 73);
     border-radius: 5px;
@@ -91,7 +90,6 @@ nav a {
     font-size: 20px;
     margin: 7px 7px;
     text-align: center;
-    align-items: center;
 }
 
 .cardColumn {
@@ -99,9 +97,13 @@ nav a {
 }
 
 .card button {
+    display: inline-block;
     background-color: rgb(2, 9, 73);
     color: #D19D0E;
     border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
 }
 
 #course-list {
@@ -124,7 +126,6 @@ nav a {
     width: 400px;
 }
 
-
 footer {
     text-align: center;
     background-color: rgb(2, 9, 73);
@@ -146,7 +147,6 @@ footer {
     height: auto;
 }
 
-
 .menu-toggle {
     display: none;
     background-color: #D19D0E;
@@ -155,11 +155,12 @@ footer {
     margin: 0 auto;
     font-size: 30px;
     height: 45px;
+    display: flex;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
     grid-column: 4 / 5;
 }
-
 
 @media (max-width: 700px) {
     nav {
@@ -180,32 +181,22 @@ footer {
     }
 
     .titlePage {
-        display: grid;
         grid-template-columns: 1fr 2fr 0.5fr;
-        background-color: rgb(2, 9, 73);
-        color: #D19D0E;
         padding: 60px;
     }
 
     header h1 {
-        display: flex;
         grid-column: 2 / 3;
         font-size: 18px;
-        text-align: center;
-        align-items: center;
         margin: 0 15px;
     }
 
     .titleImage {
-        margin: 0 auto;
-        box-shadow: 0 0 15px #D19D0E;
         width: 120px;
         grid-column: 1 / 2;
     }
 
     .img {
-        display: flex;
-        margin: 0 auto;
         width: 150px;
     }
 

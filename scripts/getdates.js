@@ -1,57 +1,64 @@
-//Toggle Menu
-document.getElementById('menuToggle').addEventListener('click', function() {
-    document.getElementById('menu').classList.toggle('active');
-});
+// Toggle Menu
+document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.getElementById('menuToggle');
+    const menu = document.getElementById('menu');
 
+    if (menuToggle && menu) {
+        menuToggle.addEventListener('click', function () {
+            menu.classList.toggle('active');
+        });
+    }
 
-//Course list
-const container = document.getElementById('course-list');
-const courses = ['CSE 110', 'WDD 130', 'CSE 111', 'CSE 210', 'WDD 131', 'WDD 231'];
+    // Course list
+    const container = document.getElementById('course-list');
+    const courses = ['CSE 110', 'WDD 130', 'CSE 111', 'CSE 210', 'WDD 131', 'WDD 231'];
 
-courses.forEach(course => { 
-    const courseName = document.createElement('a')
-    courseName.textContent = course
-
-    container.appendChild(courseName)
-});
-
-//Course filters buttons
-function displayCourses(filteredCourses) {
-    container.innerHTML = '';
-    
-    filteredCourses.forEach(course => { 
+    function createCourseLink(course) {
         const courseName = document.createElement('a');
         courseName.textContent = course;
-        container.appendChild(courseName);
-    });
-}
-
-//Show all courses
-function showAllCourses() {
-    displayCourses(courses);
-}
-
-// Filter all courses
-function filterCourses(filter) {
-    if (filter === 'All') {
-        showAllCourses();
-    } else {
-        const filtered = courses.filter(course => course.startsWith(filter));
-        displayCourses(filtered);
+        courseName.href = '#'; // Ajout pour comportement de lien
+        return courseName;
     }
-}
 
+    function displayCourses(filteredCourses) {
+        if (!container) return;
+        container.innerHTML = '';
 
-document.getElementById('buttonAll').addEventListener('click', () => filterCourses('All'));
-document.getElementById('buttonCSE').addEventListener('click', () => filterCourses('CSE'));
-document.getElementById('buttonWDD').addEventListener('click', () => filterCourses('WDD'));
+        filteredCourses.forEach(course => {
+            const courseLink = createCourseLink(course);
+            container.appendChild(courseLink);
+        });
+    }
 
-// Footer current year and moddification
-document.addEventListener('DOMContentLoaded', function() {
-    let currentYear = new Date().getFullYear();
-    let lastModification = document.lastModified;
-    
-    document.getElementById('currentyear').textContent = currentYear;
-    document.getElementById('lastModified').textContent = 'Last modification: ' + lastModification;
+    function showAllCourses() {
+        displayCourses(courses);
+    }
+
+    function filterCourses(filter) {
+        if (filter === 'All') {
+            showAllCourses();
+        } else {
+            const filtered = courses.filter(course => course.startsWith(filter));
+            displayCourses(filtered);
+        }
+    }
+
+    // Initialisation liste des cours
+    showAllCourses();
+
+    // Gestion des boutons de filtre
+    const buttonAll = document.getElementById('buttonAll');
+    const buttonCSE = document.getElementById('buttonCSE');
+    const buttonWDD = document.getElementById('buttonWDD');
+
+    if (buttonAll) buttonAll.addEventListener('click', () => filterCourses('All'));
+    if (buttonCSE) buttonCSE.addEventListener('click', () => filterCourses('CSE'));
+    if (buttonWDD) buttonWDD.addEventListener('click', () => filterCourses('WDD'));
+
+    // Footer: Année actuelle et date de dernière modification
+    const currentYearSpan = document.getElementById('currentyear');
+    const lastModifiedSpan = document.getElementById('lastModified');
+
+    if (currentYearSpan) currentYearSpan.textContent = new Date().getFullYear();
+    if (lastModifiedSpan) lastModifiedSpan.textContent = 'Last modification: ' + document.lastModified;
 });
-
