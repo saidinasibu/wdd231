@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Print On Namibia</title>
+
+    <!-- Styles and Icons -->
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <!-- Scripts -->
+    <script src="scripts/index.js" defer></script>
+</head>
+
+<body>
+    <div id="content">
+        <!-- Header Section -->
+        <header>
+            <a href="index.html" id="logo_link">
+                <img src="images/print_on.png" alt="Print On Logo" class="logo" />
+            </a>
+            <button id="menu" aria-label="Toggle Menu"></button>
+            <nav class="navigation">
+                <a href="index.html">HOME</a>
+                <a href="catalogue.html">SERVICES</a>
+                <a href="howtoorder.html">ABOUT US</a>
+                <a href="contactus.html" class="active">CONTACT US</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <section class="contact-form">
+                <h1></h1>
+                <div id="feedback"></div>
+
+                <form action="/my-handling-form-page" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="user_name" placeholder="Your full name" required />
+
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" name="user_email" placeholder="your@email.com" required />
+
+                    <label for="msg">Message</label>
+                    <textarea id="msg" name="user_message" rows="5" placeholder="Your message here..."
+                        required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; <span id="currentyear"></span> Print On | Windhoek, Namibia</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+
+            <section class="social-media">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/printonnamibia/" target="_blank"><i class="fab fa-facebook"></i>
+                        Facebook</a>
+                    <a href="https://www.instagram.com/printonnamibia/" target="_blank"><i class="fab fa-instagram"></i>
+                        Instagram</a>
+                    <a href="https://t.me/printonnamibia" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
+                    <a href="https://twitter.com/printonnamibia" target="_blank"><i class="fab fa-twitter"></i>
+                        Twitter</a>
+                    <a href="https://youtube.com/@bbminternational4199" target="_blank"><i class="fab fa-youtube"></i>
+                        YouTube</a>
+                    <a href="https://tiktok.com/@printonnamibia" target="_blank"><i class="fab fa-tiktok"></i>
+                        TikTok</a>
+                    <a href="https://wa.me/c/264814576464" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>
