@@ -1,4 +1,4 @@
-// Toggle Menu
+
 document.addEventListener('DOMContentLoaded', function () {
     const menuToggle = document.getElementById('menuToggle');
     const menu = document.getElementById('menu');
@@ -9,14 +9,14 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Course list
+  
     const container = document.getElementById('course-list');
     const courses = ['CSE 110', 'WDD 130', 'CSE 111', 'CSE 210', 'WDD 131', 'WDD 231'];
 
     function createCourseLink(course) {
         const courseName = document.createElement('a');
         courseName.textContent = course;
-        courseName.href = '#'; // Ajout pour comportement de lien
+        courseName.href = '#'; 
         return courseName;
     }
 
@@ -43,10 +43,10 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     }
 
-    // Initialisation liste des cours
+
     showAllCourses();
 
-    // Gestion des boutons de filtre
+
     const buttonAll = document.getElementById('buttonAll');
     const buttonCSE = document.getElementById('buttonCSE');
     const buttonWDD = document.getElementById('buttonWDD');
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (buttonCSE) buttonCSE.addEventListener('click', () => filterCourses('CSE'));
     if (buttonWDD) buttonWDD.addEventListener('click', () => filterCourses('WDD'));
 
-    // Footer: Année actuelle et date de dernière modification
+
     const currentYearSpan = document.getElementById('currentyear');
     const lastModifiedSpan = document.getElementById('lastModified');
 
