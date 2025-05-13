@@ -8,7 +8,7 @@ body {
 .titlePage {
     display: grid;
     grid-template-columns: 0.5fr 1fr 3fr;
-    background-color: black;
+    background-color: rgb(2, 9, 73);
     color: #D19D0E;
     padding: 60px;
 }
@@ -16,16 +16,16 @@ body {
 header h1 {
     display: flex;
     grid-column: 3 / 4;
-    font-size: 25px;
+    font-size: 100px;
     text-align: center;
     align-items: center;
-    margin-left: -10px;
+    margin-left: 10px;
 }
 
 .titleImage {
     margin: 0 auto;
     box-shadow: 0 0 15px #D19D0E;
-    width: 120px;
+    width: 250px;
     grid-column: 2 / 3;
 }
 
@@ -39,12 +39,12 @@ nav {
 
 nav a:hover {
     background-color: wheat;
-    color: #770303
+    color: #770303;
 }
 
 nav a {
     text-align: center;
-    color: black;
+    color: rgb(2, 9, 73);
     text-decoration: none;
     padding: 10px;
     font-size: 20px;
@@ -64,7 +64,7 @@ nav a {
     border: 2px solid;
     border-radius: 20px;
     margin: 10px 10px;
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px rgb(2, 9, 73);
 }
 
 .card p {
@@ -75,7 +75,7 @@ nav a {
 
 .card h3 {
     margin: -10px -12px 10px;
-    background-color: black;
+    background-color: rgb(2, 9, 73);
     color: #D19D0E;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -85,11 +85,8 @@ nav a {
 
 .card a {
     background-color: #D19D0E;
-    color: black;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    color: rgb(2, 9, 73);
+    border-radius: 5px;
     padding: 15px 15px;
     font-size: 20px;
     margin: 7px 7px;
@@ -102,12 +99,9 @@ nav a {
 }
 
 .card button {
-    background-color: black;
+    background-color: rgb(2, 9, 73);
     color: #D19D0E;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-radius: 5px;
 }
 
 #course-list {
@@ -119,8 +113,8 @@ nav a {
 
 .credits {
     background-color: #D19D0E;
-    color: black;
-    margin: -10px -10px 10px -10px ;
+    color: rgb(2, 9, 73);
+    margin: -10px -10px 10px -10px;
     padding: 5px;
 }
 
@@ -130,19 +124,33 @@ nav a {
     width: 400px;
 }
 
+
 footer {
     text-align: center;
-    background-color: black;
+    background-color: rgb(2, 9, 73);
     color: white;
     font-size: 15px;
     padding: 17px;
 }
 
-/*Toggle Menu*/
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.footer-flag {
+    width: 30px;
+    height: auto;
+}
+
+
 .menu-toggle {
     display: none;
     background-color: #D19D0E;
-    color: black;
+    color: rgb(2, 9, 73);
     border: none;
     margin: 0 auto;
     font-size: 30px;
@@ -152,7 +160,7 @@ footer {
     grid-column: 4 / 5;
 }
 
-/*media query when screen is lass 700*/
+
 @media (max-width: 700px) {
     nav {
         display: none;
@@ -160,7 +168,7 @@ footer {
         background-color: #D19D0E;
         width: 100%;
     }
-    
+
     .menu-toggle {
         display: block;
         margin: 20px 0;
@@ -174,11 +182,11 @@ footer {
     .titlePage {
         display: grid;
         grid-template-columns: 1fr 2fr 0.5fr;
-        background-color: black;
+        background-color: rgb(2, 9, 73);
         color: #D19D0E;
         padding: 60px;
     }
-    
+
     header h1 {
         display: flex;
         grid-column: 2 / 3;
@@ -199,5 +207,9 @@ footer {
         display: flex;
         margin: 0 auto;
         width: 150px;
+    }
+
+    .footer-flag {
+        width: 20px;
     }
 }

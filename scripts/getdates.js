@@ -54,3 +54,4 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('currentyear').textContent = currentYear;
     document.getElementById('lastModified').textContent = 'Last modification: ' + lastModification;
 });
+
