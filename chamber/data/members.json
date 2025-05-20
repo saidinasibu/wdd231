@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Coca Cola",
+        "tagline": "Mágica Real",
+        "address": "Rod. Augusto Montenegro, 5301 - Parque Verde, Belém - PA, 66635-110",
+        "phone": "+55 091 4005-6660",
+        "website": "https://www.coca-cola.com.br/",
+        "icon": "cocacola.png",
+        "email": "consumidor@cocacola.pt",
+        "membership": "3"
+    },
+
+    {
+        "name": "Gerdau",
+        "tagline": "Construindo o futuro.",
+        "address": "Rua Distrito Industrial VP2, setor A, Quadra 4 -S/N - Distrito Industrial, Ananindeua - PA, 67035-330",
+        "phone": "+55 091 3214-1400",
+        "website": "https://mais.gerdau.com.br/",
+        "icon": "gerdau.png",
+        "email": "inform@gerdau.com",
+        "membership": "1"
+    },
+    
+    {
+        "name": "Formosa",
+        "tagline": "O menor preço pra valer.",
+        "address": "Avenida Augusto Montenegro, km 7 S/N - Parque Verde, Belém - PA, 66635-110",
+        "phone": "+55 091 3348-9007",
+        "website": "https://www.formosa.com.br/",
+        "icon": "formosa.png",
+        "email": "sac@formosanet.com.br",
+        "membership": "1"
+    },
+
+    {
+        "name": "Senac",
+        "tagline": "Do comércio, pelo comércio, para o progresso",
+        "address": "Av. Serzedelo Corrêa, 279 - Nazaré, Belém - PA, 66035-400",
+        "phone": "+55 0800 701 4492",
+        "website": "https://www.pa.senac.br/",
+        "icon": "senac.png",
+        "email": "atendimento@pa.senac.br",
+        "membership": "2"
+    },
+
+    {
+        "name": "Sococo",
+        "tagline": "Tenha uma vida mais integral",
+        "address": "R. B, 492-728 - Distrito Industrial, Ananindeua - PA",
+        "phone": "+55 091 4006-3010",
+        "website": "https://www.sococo.com.br/",
+        "icon": "sococo.png",
+        "email": "atendimento@sococo.com.br",
+        "membership": "3"
+    },
+
+    {
+        "name": "It Center",
+        "tagline": "Onde comprar é um barato.",
+        "address": "Av. Sen. Lemos, 3153 - Sacramenta, Belém - PA, 66120-000",
+        "phone": "+55 091 3201-2000",
+        "website": "https://itcenter.com.br/",
+        "icon": "itCenter.png",
+        "email": "rodrigo@grupoit.com.br",
+        "membership": "3"
+    },    
+    
+    {
+        "name": "Unimed Belém",
+        "tagline": "Aqui tem gente. Aqui tem vida. Aqui tem Unimed",
+        "address": "Tv. Curuzú, 2212 - Marco, Belém - PA, 66085-823",
+        "phone": "+55 091 4009-5000",
+        "website": "https://www.unimed.coop.br/site/web/unimedbelem",
+        "icon": "unimed.png",
+        "email": "sac@unimedbelem.com.br",
+        "membership": "2"
+    }
+]

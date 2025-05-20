@@ -1,0 +1,16 @@
+@media (max-width: 1071px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .social img {
+        border-radius: 5px;
+        width: 40px;
+    }
+}
+
+@media (max-width: 950px) {
+    #card {
+      display: none;
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "membership": [
+        {
+            "category": "Non Profit Membership Level",
+            "image": "./images/non-profit.png",
+            "description": "For non-profit organizations. No membership fee is required, allowing access to essential resources and networking."
+        },
+        {
+            "category": "Bronze Membership Level",
+            "image": "images/bronze.png",
+            "description": "Entry-level membership offering basic benefits and access to limited events and resources."
+        },
+        {
+            "category": "Silver Membership Level",
+            "image": "./images/silver.png",
+            "description": "Mid-tier membership providing enhanced benefits, including access to a wider range of events and business resources."
+        },
+        {
+            "category": "Gold Membership Level",
+            "image": "./images/gold.png",
+            "description": "Top-tier membership offering premium benefits, full access to all events, resources, and personalized support."
+        }
+        
+    ],
+    "images":[
+        {
+            "id":"1",
+            "image":"./images/desk.jpg"
+        },
+        {
+            "id":"2",
+            "image":"./images/businessDeal.jpg"
+        },
+        {
+            "id":"3",
+            "image":"./images/businessPhone.jpg"
+        },
+        {
+            "id":"4",
+            "image":"./images/cities.jpg"
+        },
+        {
+            "id":"5",
+            "image":"./images/computer.jpg"
+        },
+        {
+            "id":"6",
+            "image":"./images/engine.jpg"
+        }
+    ]
+}

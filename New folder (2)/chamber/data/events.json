@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "event":"Bolivian Startup Expo",
+            "date":"November 15, 2024",
+            "location": "Sucre, Bolivia",
+            "description":"A one-day expo showcasing the most innovative startups in Bolivia. Attendees can network with founders, learn about new business ideas, and explore investment opportunities. This event will include guest speakers from successful Bolivian entrepreneurs and international venture capital firms."
+        },
+        {
+            "event":"Digital Marketing Workshop",
+            "date":"December 1, 2024",
+            "location":"La Paz. Bolivia",
+            "description":" A hands-on workshop designed to teach startups and small businesses how to grow their digital presence. Topics will include social media marketing, SEO, content marketing, and Google Ads strategies. Experts in digital marketing will lead the sessions, and participants will leave with actionable plans to boost their online presence."
+        },
+        {
+            "event":"Entrepreneurship Bootcamp",
+            "date":"January 10-14, 2025",
+            "location":"Santa Cruz, Bolivia",
+            "description":"A five-day immersive bootcamp for aspiring entrepreneurs. The event will cover the essentials of starting a business, from ideation and market research to business model development and pitching to investors. Attendees will work on real-life case studies and develop their business ideas during the course of the bootcamp."
+        },
+        {
+            "event":"Women in Business Leadership Forum",
+            "date":"February 20, 2025",
+            "location":"Cochabamba, Bolivia",
+            "description":"A forum aimed at empowering women entrepreneurs and leaders in Bolivia. The event will feature keynote speakers, panel discussions, and networking opportunities. Topics will include leadership challenges, overcoming barriers, and building sustainable businesses. There will also be breakout sessions focused on mentorship and growth strategies."
+        },
+        {
+            "event":"Tech Innovation Summit",
+            "date":"March 5-6, 2025",
+            "location":"Sucre, Bolivia",
+            "description":"A two-day summit dedicated to discussing the future of technology and innovation in Bolivia. Attendees will hear from local tech innovators, software developers, and global technology experts. Sessions will focus on AI, blockchain, fintech, and how Bolivian businesses can leverage technology to compete globally."
+        }
+    ]
+}

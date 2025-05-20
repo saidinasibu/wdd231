@@ -1,0 +1,27 @@
+[
+    {
+      "level": "np",
+      "title": "NP Membership",
+      "text": "This basic and free membership is ideal for small businesses or non-profits that want minimal presence on the site. Benefits include a basic company profile (name, address, contact), inclusion in the site's directory with simple search, access to articles and tips to improve online visibility, and support via FAQs and automated tutorials. Members can also participate in public events or webinars.",
+      "color": "#4CAF50"
+    },
+    {
+      "level": "bronze",
+      "title": "Bronze Membership",
+      "text": "This level is suitable for startups that can afford a basic fee for greater exposure. Benefits include a detailed company profile with logo, description, and business hours, inclusion in specific categories of the directory, highlighted display in local search results, basic performance reports (clicks and visits), and email support.",
+      "color": "#CD7F32"
+    },
+    {
+      "level": "silver",
+      "title": "Silver Membership",
+      "text": "Ideal for growing businesses that want to significantly increase their presence and reach. Includes all Bronze benefits plus priority in directory listings, access to SEO tools to optimize the profile, detailed performance reports (demographics and engagement), the ability to post up to 3 promotions or ads per month, and email and live chat support.",
+      "color": "#C0C0C0"
+    },
+    {
+      "level": "gold",
+      "title": "Gold Membership",
+      "text": "This premium level is designed for established companies that want maximum visibility and exclusive support. Includes all Silver benefits plus homepage highlights, a personalized profile with videos, reviews, and customer testimonials, access to exclusive marketing campaigns (email marketing and banners), advanced reports with market insights, unlimited posting of promotions or ads, and dedicated priority support.",
+      "color": "#FFD700"
+    }
+  ]
+  

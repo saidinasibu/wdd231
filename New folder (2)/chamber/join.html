@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Bolivia Business Hub - Empowering Bolivian Startups and Entrepreneurs</title>
+    <meta name="description" content="Bolivia Business Hub is a platform providing resources, networking, and guidance to Bolivian startups and entrepreneurs, helping them grow and thrive in the digital economy.">
+    <meta name="author" content="Samuel F. Mercado Perez">
+    
+    <!-- Social Media / Open Graph Meta Tags -->
+    <meta property="og:title" content="Bolivia Business Hub - Empowering Bolivian Startups">
+    <meta property="og:description" content="Discover resources, events, and networking opportunities to boost your startup or business in Bolivia.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sam-mercado.github.io/wdd231/chamber/directory.html">
+    <meta property="og:image" content="images/peta.jpg">
+    <!--typography-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/book-svgrepo-com.svg" type="image/icon">    
+
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/join.css">
+
+    <script src="scripts/components.js" defer></script>
+    <script src="scripts/join.js" defer> </script>
+</head>
+<body>
+    <header>
+        <img id="logo" src="images/logobbh.png" alt="logo bbh">
+        <nav>
+            <button id="myButton">&#9776;</button>
+            <ul class="menuLinks">
+                <li><a href="index.html" title="home">home</a></li>
+                <li><a href="directory.html" title="business">directory</a></li>
+                <li><a href="join.html" title="join">join</a></li>
+                <li><a href="#" title="about">about</a></li>
+                <li><a href="discover.html" title="discover">discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="formSection">
+            <h3>Fill the Form to Join</h3>
+            <div class="registration-box">
+                <img id="formImg" src="images/peta.jpg" alt="trufi chasmbers of commerce">  
+                <form method="GET" action="thankyou.html" class="join-form">
+                    <h6>Become a Member</h6>
+                
+                    <!-- First Name -->
+                    <label for="first-name">Applicant's First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required title="Your First Name" autocomplete="given-name" placeholder="Samuel">
+                
+                    <!-- Last Name -->
+                    <label for="last-name">Applicant's Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required title="Your Last Name" autocomplete="family-name" placeholder="Mercado">
+                    <!-- Organizational Title -->
+                    <label for="org-title">Applicant's Organizational Title:</label>
+                    <input type="text" id="org-title" name="org-title" title="Your Organizational Title" autocomplete="organization-title" 
+                         placeholder="CEO" >
+                    <!-- Email -->
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required title="Your Email Address" autocomplete="email" placeholder="example@domain.com">
+                    <!-- Mobile Phone Number -->
+                    <label for="phone">Mobile Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required title="Your Mobile Phone Number" autocomplete="tel" placeholder="987-555-1234">
+                    <!-- Business/Organization's Name -->
+                    <label for="business-name">Business/Organization's Name:</label>
+                    <input type="text" id="business-name" name="business" required title="Your Business Name" autocomplete="organization" placeholder="Tech Sead">
+                    <!-- Membership Level -->
+                    <label for="membership">Membership Level:</label>
+                    <select id="membership" name="membership" required>
+                        <option value="">Select a Membership Level</option>
+                        <option value="np">NP Membership (Non-Profit, No Fee)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                   
+                    <label for="description">What do you do?</label>
+                    <textarea id="description" name="description" rows="4" cols="50" title="Describe your business" placeholder="Describe your work..."></textarea>
+                
+                  
+                    <label for="timestamp">
+                        <input type="hidden" id="timestamp" name="timestamp" value="">
+                    </label>
+                
+                    <input id="btn" class="btn" type="submit" value="Join">
+                
+                </form>
+            </div>
+            <div>
+                <h3>Membership Level?</h3>
+                <div class="membership-content"></div>
+                <dialog  id="modal" class="modal">
+                    <div>
+                        <button>X</button>
+                        <h2>Sample Title</h2>
+                    </div>
+                    <p></p>
+                    </dialog>
+                </div>
+        </section>
+
+    </main>
+    <footer>
+        <div>
+            <img id="logo2" src="images/logobbh.png" alt="logo bbh">
+            <p>Calle Falsa #456,Zona Central</p>
+            <p>La Paz, Bolivia</p>
+            <p>office@bbhub.com</p>
+            <p>+591 64843357</p>
+        </div>
+        <div>
+            <p>WDD231 Class Project</p>
+            <p id="year"></p>
+            <p id="last-update"></p>
+            <div class="social">
+                <a href="#"><img class="icon" src="images/facebook-svgrepo-com.svg" alt="facebook"></a>
+                <a href="#"><img class="icon" src="images/instagram-svgrepo-com.svg" alt="instagram"></a>
+                <a href="#"><img class="icon" src="images/linkedin-svgrepo-com.svg" alt="linkedin"></a>   
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
