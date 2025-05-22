@@ -104,8 +104,18 @@ async function fetchWeatherData() {
         const maxTemp = Math.round(currentWeatherData.main.temp_max);
         const minTemp = Math.round(currentWeatherData.main.temp_min);
         const humidity = currentWeatherData.main.humidity;
-        const sunrise = new Date(currentWeatherData.sys.sunrise * 1000).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
-        const sunset = new Date(currentWeatherData.sys.sunset * 1000).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+        const sunrise = new Date(currentWeatherData.sys.sunrise * 1000).toLocaleTimeString('en-US', {
+            hour: '2-digit',
+            minute: '2-digit',
+            timeZone: 'Africa/Windhoek'
+        });
+
+        const sunset = new Date(currentWeatherData.sys.sunset * 1000).toLocaleTimeString('en-US', {
+            hour: '2-digit',
+            minute: '2-digit',
+            timeZone: 'Africa/Windhoek'
+        });
+        
         const weatherIcon = currentWeatherData.weather[0].icon;
         const weatherIconUrl = `https://openweathermap.org/img/wn/${weatherIcon}.png`;
 
@@ -323,7 +333,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Thanks after the form submit
 document.getElementById('form')?.addEventListener('submit', function(event) {
-    event.preventDefault(); // Previne o envio do formulário
+    event.preventDefault(); 
 
     // Get the form data
     const firstName = document.getElementById('firstName').value;
