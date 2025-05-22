@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #17e0d6e7;
+    --primary-color: #ffa22d;
     --secondary-color: #bed;
     --font-family-text: 'Lato', sans-serif;
 }
@@ -216,7 +216,7 @@ article img {
 .hero{
     display: flex;
     margin: -8px auto;
-    width: 75%;
+    width: 77%;
     height: 550px;
     z-index: 1;
 }
@@ -225,7 +225,7 @@ article img {
     z-index: 2;
     position: absolute;
     bottom: 50px;
-    right: 30px;
+    right: 220px;
     padding: 10px;
     width: 200px;
     font-size: 20px;
@@ -281,7 +281,7 @@ article img {
     display: flex;
     margin: 40px 0 20px 2vw;
     width: 20%;
-    background-color: aqua;
+    background-color: #ffa22d;
     border-radius: 70px;
 }
 
@@ -339,7 +339,7 @@ article img {
 }
 
 .sportlight-website:hover {
-    background-color: aqua;
+    background-color: #ffa22d;
     color: black;
     border: 2px solid black;
     text-decoration: none;  
