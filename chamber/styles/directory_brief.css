@@ -1,6 +1,6 @@
 :root {
     --primary-color: #ffa22d;
-    --secondary-color: #bed;
+    --secondary-color: #ffa22d;
     --font-family-text: 'Lato', sans-serif;
 }
 
@@ -237,7 +237,7 @@ article img {
 
 .join:hover {
     color: black;
-    background-color: var(--primary-color);
+    background-color: #ffa22d;
 }
 
 .grid-weather {
@@ -347,7 +347,7 @@ article img {
 
 /*Form CSS*/
 form {
-    background-color: rgb(158, 170, 187);
+    background-color: #ffa22d;
     width: 100%;
     padding: 30px 0 30px 30px;
 }
