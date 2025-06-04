@@ -266,10 +266,11 @@ article img {
     grid-column: 3 / 5;
 }
 
-.currentParagraphs {
-    float: right;
-    margin-top: -30%;
-    margin-right: 30PX;
+.current {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
 }
 
 .forecastParagraphs {
@@ -277,13 +278,24 @@ article img {
     font-size: 30px;
 }
 
+
+
 #weatherIcon {
-    display: flex;
-    margin: 40px 0 20px 2vw;
-    width: 20%;
-    background-color: #2ddcff;
-    border-radius: 70px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
 }
+
+.currentParagraphs {
+    text-align: center;
+}
+
+.currentParagraphs p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
 
 .forecast {
     grid-column: 5 / 6;
@@ -345,7 +357,7 @@ article img {
     text-decoration: none;  
 }
 
-/*Form CSS*/
+
 form {
     background-color: #ffa22d;
     width: 100%;
@@ -513,7 +525,7 @@ dialog {
 }
 
 
-/*Thanks CSS*/
+
 #thanks {
     height: 600px;
     text-align: center;
@@ -525,7 +537,7 @@ dialog {
 }
 
 
-/*Discover CSS*/
+
 #discoverInfo {
     width: 90%;
     display: grid;
@@ -634,7 +646,7 @@ dialog {
     color: red;
 }
 
-/*Footer*/
+
 .social img {
     border-radius: 15px;
     width: 70px;
@@ -658,4 +670,43 @@ footer {
 footer div {
     margin: 0 auto;
     padding: 10px;
+}
+.currentParagraphs p,
+.forecastParagraphs p {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+#weatherIcon {
+  width: 80px;
+  height: 80px;
+  margin: 10px auto;
+  display: block;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.forecastParagraphs {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .grid-weather {
+    grid-template-columns: 1fr;
+  }
+
+  .currentParagraphs, .forecastParagraphs {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #weatherIcon {
+    margin: 20px auto;
+  }
 }
