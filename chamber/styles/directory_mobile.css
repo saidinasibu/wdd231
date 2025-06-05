@@ -104,9 +104,9 @@
     }
 
     #weatherIcon {
-        display: block;
+        display: auto;
         margin: 0 auto;
-        width: 300px;
+        width: 30px;
     }
 
     .currentParagraphs {
