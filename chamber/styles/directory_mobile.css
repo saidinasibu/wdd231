@@ -6,11 +6,11 @@
 
     header h4 {
         font-size: 4vw;
-        margin-top: -10px;
+        margin-top: -20px;
     }
 
     .titleImage {
-        height: 60px;
+        height: 70px;
     }
 }
 
@@ -89,8 +89,9 @@
     }
 
     .grid-weather {
-        grid-template-columns: 1fr;
-        gap: 20px
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
     }
 
     .grid-weather h3 {
@@ -104,9 +105,9 @@
     }
 
     #weatherIcon {
-        display: auto;
-        margin: 0 auto;
-        width: 30px;
+        display: flex;
+        margin: 40px 0 0 10%;
+        width: 20%;
     }
 
     .currentParagraphs {
@@ -150,39 +151,4 @@
         width: 90px;        
         text-decoration: none;  
     }
-}
-.positionHero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-}
-
-.hero {
-    width: 90%;
-    height: auto;
-    max-width: 300px;
-}
-.join {
-    position: static;
-    margin-top: 15px;
-    width: 80%;
-    font-size: 16px;
-    padding: 10px;
-    border-radius: 25px;
-}
-#home_page h1 {
-    font-size: 6vw;
-    text-align: center;
-    margin-top: 20px;
-}
-.currentParagraphs,
-.forecastParagraphs {
-    font-size: 14px;
-    margin: 10px;
-    text-align: center;
-}
-.grid-weather section {
-    margin: 0 auto;
-    width: 95%;
 }
