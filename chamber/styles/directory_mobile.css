@@ -106,7 +106,7 @@
     #weatherIcon {
         display: block;
         margin: 0 auto;
-        width: 50px;
+        width: 300px;
     }
 
     .currentParagraphs {
@@ -164,7 +164,7 @@
     max-width: 300px;
 }
 .join {
-    position: center;
+    position: static;
     margin-top: 15px;
     width: 80%;
     font-size: 16px;
