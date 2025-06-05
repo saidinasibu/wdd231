@@ -1,3 +1,5 @@
+
+
 @media (max-width: 400px) {
     header h1 {
         font-size: 6vw;
@@ -15,196 +17,136 @@
 }
 
 @media (max-width: 891px) {
+
+  
     .grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .grid a {
-        font-size: 2.5vw;
-    }
-
-    .social img {
-        border-radius: 5px;
-        width: 30px;
-    }
-
-    footer {
-        grid-template-rows: 2fr 1fr 2fr;
         grid-template-columns: 1fr;
-        font-size: 13px;
-    }
-}
-
-/* Mobile CSS for all screens below 1000px */
-@media (max-width: 1000px) {
-
-    /* Hero image fixes */
-    .hero {
-        width: 100%;
-        height: auto;
-        max-height: 300px;
-        object-fit: cover;
-    }
-
-    .positionHero {
-        position: relative;
-        overflow: hidden;
-    }
-
-    .join {
-        position: absolute;
-        bottom: 20px;
-        right: 20px;
-        width: 120px;
-        padding: 8px;
-        font-size: 14px;
-        border-radius: 20px;
-        z-index: 2;
-    }
-
-    /* Weather section fixes */
-    .grid-weather {
-        display: grid;
-        grid-template-columns: 1fr !important;
         gap: 15px;
     }
 
-    .events,
-    .current,
-    .forecast {
-        grid-column: 1 / -1;
-        height: auto;
-        margin: 10px 0;
-        padding: 15px;
-        text-align: center;
-    }
-
-    #weatherIcon {
-        display: block;
-        margin: 10px auto;
-        width: 60px;
-        height: 60px;
-    }
-
-    .currentParagraphs {
-        text-align: center;
-        float: none;
-        margin: 10px 0;
-        width: 100%;
-    }
-
-    .currentParagraphs p,
-    .forecastParagraphs p {
-        font-size: 14px;
-        margin: 5px 0;
-    }
-
-    .forecastParagraphs {
-        font-size: 16px;
-    }
-
-    /* Form fixes */
-    form label {
-        font-size: 16px;
-    }
-
-    fieldset legend {
-        font-size: 16px;
-    }
-
-    form fieldset {
-        width: 90%;
+    .social img {
+        width: 30px;
         border-radius: 5px;
-        border: 2px solid black;
     }
 
-    .lazyImages img:hover {
-        transform: none;
-        box-shadow: 0 0 7px black;
-        z-index: 1;
-    }
-
-    /* Discover fixes */
-    .discoverCard {
-        width: 100%;
-    }
-
-    .discoverText {
-        width: 100%;
-    }
-
-    .discoverCalendar {
-        grid-column: 1 / -1;
-        width: 100%;
-    }
-
-    .discoverCalendar iframe {
-        width: 100%;
-    }
-
-    .modalContent p {
-        font-size: 4vw;
-    }
-
-    .closeBtn {
-        margin: -2vw 0 5vw 46vw;
-    }
-
-    /* Spotlights fixes */
-    .spotlights {
-        display: grid;
+    footer {
         grid-template-columns: 1fr;
-        row-gap: 20px;
+        grid-template-rows: auto auto auto;
+        font-size: 13px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+   
+    .join {
+        position: absolute;
+        bottom: 40px;  
+        right: 20px;
+        width: 120px;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 20px;
+        background-color: #000;
+        color: white;
+        text-align: center;
+        z-index: 10;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+
+    .spotlights {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
         width: 100%;
     }
 
     .sportlight-card {
-        width: 100%;
-        height: auto;
+        width: 90%;
+        margin: 0 auto;
         padding: 15px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
 
-    .sportlight-email {
-        margin: 10px 0;
+    
+    .company-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
+        padding: 15px;
+        margin-bottom: 15px;
     }
 
-    .sportlight-phone {
-        margin: 10px 0;
-        text-align: center;
+   
+    .grid-weather {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
     }
 
-    .sportlight-website {
-        display: block;
-        margin: 15px auto;
-        width: 120px;
-        text-align: center;
-        padding: 8px;
+    .current,
+    .forecast {
+        padding: 15px;
+        background: #f8f8f8;
+        border-radius: 8px;
+    }
+
+    #weatherIcon {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto 10px;
+    }
+
+
+    h2,
+    h3 {
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+   
+    .sportlight-website:hover {
+        background: #ffa22d;
+        transform: scale(1.05);
+        transition: all 0.3s ease;
+    }
+
+
+    form input,
+    form select,
+    form textarea {
+        width: 90% !important;
+        margin: 8px auto;
+    }
+
+
+    footer div {
+        margin-bottom: 15px;
+        padding: 10px;
     }
 }
 
-/* Additional small screen optimizations */
+
 @media (max-width: 480px) {
-    header {
-        grid-template-columns: auto 1fr auto;
-    }
-
-    .titleImage {
-        height: 60px;
-    }
-
     .join {
-        bottom: 10px;
-        right: 10px;
-        width: 100px;
-        font-size: 12px;
+        bottom: 30px;
+        right: 15px;
+        width: 110px;
+        font-size: 13px;
     }
 
-    .grid-weather section {
+    .sportlight-card {
+        width: 95%;
         padding: 10px;
     }
 
-    .sportlight-name {
-        font-size: 22px;
+    .currentParagraphs p {
+        font-size: 13px;
     }
 }
