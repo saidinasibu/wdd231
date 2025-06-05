@@ -1,87 +1,66 @@
-@media (max-width: 1490px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 6vw;
+        margin-top: 10px;
     }
 
-    .social img {
-        border-radius: 15px;
-        width: 50px;
-    }
-}
-
-/*Discorver middle CSS*/
-@media (max-width: 1250px) {
-    #discoverInfo {
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
-        row-gap: 2%;
-        margin-bottom: -20px;
+    header h4 {
+        font-size: 4vw;
+        margin-top: -10px;
     }
 
-    .discoverInfo {
-        display: grid;
-        grid-template-columns: 3fr 4fr 4fr;
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-        column-gap: 1vw;
-        overflow-y: scroll;
-        font-size: 18px;
-        height: 250px;
-        width: 100%;
+    .titleImage {
+        height: 60px;
     }
 
-    .discoverInfo section {
-        height: 215px;
+    .positionHero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
     }
 
-    .lazyImages {
-        grid-row: 2 / 3;
-        grid-column: 1 / 2;
-        height: 400px;
-        overflow-x: auto;
-        margin-bottom: 10px;
-    }   
-
-    .lazyImages img {
-        margin: 2vw 10% 2vw 10% ;
-        height: 32vw;
-    }
-
-    .discoverText {
-        grid-column: 1 / 2;
-        width: 20vw;
-    }
-
-    .discoverCard {
-        grid-column: 2 / 3;
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 1fr 2fr 1fr;
-        width: 30vw;
-    }
-
-    .discoverCard h3 {
-        grid-column: 1 / 3;
-        font-size: 17px;
-    }
-    
-    .discoverCard p {
-        grid-column: 1 / 3;
-        font-size: 12px;
-    }
-    
-    .discoverCard img {
-        grid-column: 1 / 3;
+    .hero {
         width: 90%;
-        height: 70px;
+        height: auto;
+        max-width: 300px;
     }
 
-    .discoverCalendar {
-        grid-column: 3 / 4;
-        width: 30vw;
+    .join {
+        position: static;
+        margin-top: 15px;
+        width: 80%;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 25px;
     }
 
-    .discoverCalendar iframe{
-        width: 100%;
+    #home_page h1 {
+        font-size: 6vw;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .grid-weather {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .currentParagraphs,
+    .forecastParagraphs {
+        font-size: 14px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    #weatherIcon {
+        width: 50px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .grid-weather section {
+        margin: 0 auto;
+        width: 95%;
     }
 }
