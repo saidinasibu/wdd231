@@ -68,6 +68,8 @@ header h4 {
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
     transition: left 0.3s ease;
     z-index: 3;
+
+    
 }
 
 .sidebar a {
@@ -81,7 +83,7 @@ header h4 {
 
 .sidebar a:hover {
     color: black;
-    background-color: aqua;
+    background-color: #ffa22d;
 }
 .sidebar.open {
     left: 0;
@@ -94,7 +96,11 @@ header h4 {
 nav.sidebar {
     width: 200px;
 }
-
+.sidebar a.active {
+    background-color: var(--primary-color);
+    color: black;
+    font-weight: bold;
+}
 main {
     width: 80%;
 	margin: 0 auto;
@@ -215,12 +221,30 @@ article img {
 
 .hero{
     display: flex;
-    margin: -8px auto;
-    width: 77%;
+    margin: auto;
+    width: 80%;
     height: 550px;
     z-index: 1;
+    max-height: 550px;
+    object-fit: cover;
 }
 
+
+
+.positionHero {
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.join {
+    /* Make button responsive */
+    right: 5%;
+    bottom: 10%;
+    width: 30%;
+    max-width: 200px;
+    
+}
 .join {
     z-index: 2;
     position: absolute;
@@ -708,5 +732,19 @@ footer div {
 
   #weatherIcon {
     margin: 20px auto;
+  }
+  /* Add mobile-first media queries */
+  @media (max-width: 768px) {
+      .grid-weather {
+          grid-template-columns: 1fr;
+      }
+
+      .spotlights {
+          grid-template-columns: 1fr;
+      }
+
+      header {
+          grid-template-columns: auto 1fr auto;
+      }
   }
 }

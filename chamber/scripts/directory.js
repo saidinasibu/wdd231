@@ -443,3 +443,11 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('currentyear').textContent = currentYear;
     document.getElementById('lastModified').textContent = 'Last modification: ' + lastModification;
 });
+
+// directory.js - Add to DOMContentLoaded
+const currentPage = location.pathname.split('/').pop();
+document.querySelectorAll('.sidebar a').forEach(link => {
+    if (link.getAttribute('href') === currentPage) {
+        link.classList.add('active');
+    }
+});
