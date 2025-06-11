@@ -1,6 +1,4 @@
-/* Mobile styles - max-width: 768px */
 @media only screen and (max-width: 768px) {
-    /* Header adjustments */
     header {
         grid-template-columns: auto 1fr auto;
         padding: 5px;
@@ -25,7 +23,6 @@
         font-size: 20px;
     }
 
-    /* Sidebar mobile styles */
     .sidebar {
         width: 70%;
         padding: 10px;
@@ -36,20 +33,17 @@
         padding: 8px;
     }
 
-    /* Main content adjustments */
     main {
         width: 95%;
         padding: 5px;
     }
 
-    /* Company filter buttons */
     .companyFilter button {
         margin: 0 5px;
         padding: 0.6rem;
         font-size: 20px;
     }
 
-    /* Grid/list view adjustments */
     .grid {
         grid-template-columns: 1fr;
         gap: 10px;
@@ -58,7 +52,8 @@
     .grid section {
         width: 95%;
         min-height: auto;
-        padding: 10px;
+        padding: 8px;
+        margin: 5px 0;
     }
 
     .list section {
@@ -66,19 +61,20 @@
         padding: 8px;
     }
 
-    /* Home page specific */
     #home_page {
         width: 100%;
     }
 
     .hero {
-        height: 300px;
+        height: 180px;
+        max-height: 180px;
     }
 
     .join {
-        bottom: 10px;
-        right: 10px;
-        padding: 8px 15px;
+        position: relative;
+        margin: 10px auto;
+        width: 80%;
+        padding: 8px;
         font-size: 16px;
     }
 
@@ -87,16 +83,19 @@
     }
 
     .grid-weather section {
-        padding: 10px;
+        padding: 8px;
+        margin: 5px 0;
+        min-height: 120px;
     }
 
     .spotlights {
         grid-template-columns: 1fr;
     }
 
-    /* Form adjustments */
     form {
-        padding: 15px;
+        padding: 10px;
+        width: 95%;
+        margin: 0 auto;
     }
 
     form label {
@@ -110,7 +109,8 @@
     }
 
     fieldset {
-        padding: 10px;
+        padding: 8px;
+        width: 95%;
     }
 
     fieldset legend {
@@ -119,13 +119,14 @@
 
     #sendForm {
         font-size: 16px;
-        padding: 10px;
+        padding: 8px;
+        width: 80%;
+        margin: 10px auto;
     }
 
-    /* Modal adjustments */
     dialog {
         width: 90%;
-        padding: 15px;
+        padding: 10px;
     }
 
     .modal-content {
@@ -134,47 +135,52 @@
 
     #card {
         width: 100%;
-        height: 60px;
+        height: 50px;
         margin: 0;
     }
 
     #close-modal {
         margin: 10px auto 0;
+        width: 40%;
     }
 
-    /* Discover page */
     #discoverInfo {
         grid-template-columns: 1fr;
     }
 
+    .discoverInfo {
+        height: auto;
+        width: 100%;
+    }
+
     .discoverInfo section {
         padding: 10px;
+        height: auto !important;
+        margin-bottom: 15px;
     }
 
     .discoverCard img {
-        height: 120px;
+        height: 100px;
     }
 
     .discoverCalendar iframe {
-        height: 250px;
+        height: 180px;
+    }
+
+    .lazyImages {
+        height: auto;
     }
 
     .lazyImages img {
         margin: 10px auto;
+        height: 150px;
     }
 
-    /* Thank you page */
     #thanks h1 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: 20px 0;
     }
 
-    #formData {
-        padding: 15px;
-        font-size: 14px;
-    }
-
-    /* Footer adjustments */
     footer {
         grid-template-columns: 1fr;
         padding: 10px;
@@ -186,20 +192,6 @@
         height: 40px;
     }
 
-    /* Utility classes for mobile */
-    .mobile-hidden {
-        display: none !important;
-    }
-
-    .mobile-full-width {
-        width: 100% !important;
-    }
-
-    .mobile-text-center {
-        text-align: center !important;
-    }
-
-    /* Weather adjustments */
     #weatherIcon {
         width: 50px;
         height: 50px;
@@ -210,26 +202,21 @@
         font-size: 14px;
     }
 
-    /* Company cards */
     .company-card img {
-        max-width: 80px;
+        max-width: 60px;
     }
 
     .company-card h3 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
-    .company-card p {
-        font-size: 0.8rem;
-    }
-
-    /* Spotlight cards */
     .sportlight-card {
-        padding: 10px;
+        padding: 8px;
+        height: 180px !important;
     }
 
     .sportlight-name {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .sportlight-tagline {
@@ -237,8 +224,8 @@
     }
 
     .sportlight-website {
-        width: 100px;
-        padding: 6px;
-        font-size: 0.8rem;
+        width: 80px;
+        padding: 5px;
+        font-size: 0.7rem;
     }
 }
