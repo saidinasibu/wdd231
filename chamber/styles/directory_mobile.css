@@ -1,152 +1,244 @@
+/* Mobile styles - max-width: 768px */
+@media only screen and (max-width: 768px) {
+    /* Header adjustments */
+    header {
+        grid-template-columns: auto 1fr auto;
+        padding: 5px;
+    }
 
-
-@media (max-width: 400px) {
     header h1 {
-        font-size: 6vw;
-        margin-top: 10px;
+        font-size: 1.2rem;
+        margin: 5px auto;
     }
 
     header h4 {
-        font-size: 4vw;
-        margin-top: -20px;
+        font-size: 0.7rem;
+        margin-top: -15px;
     }
 
     .titleImage {
-        height: 70px;
+        height: 60px;
     }
-}
 
-@media (max-width: 891px) {
+    .menu-toggle {
+        display: block;
+        font-size: 20px;
+    }
 
-  
+    /* Sidebar mobile styles */
+    .sidebar {
+        width: 70%;
+        padding: 10px;
+    }
+
+    .sidebar a {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    /* Main content adjustments */
+    main {
+        width: 95%;
+        padding: 5px;
+    }
+
+    /* Company filter buttons */
+    .companyFilter button {
+        margin: 0 5px;
+        padding: 0.6rem;
+        font-size: 20px;
+    }
+
+    /* Grid/list view adjustments */
     .grid {
         grid-template-columns: 1fr;
-        gap: 15px;
+        gap: 10px;
     }
 
-    .social img {
-        width: 30px;
-        border-radius: 5px;
-    }
-
-    footer {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto;
-        font-size: 13px;
-        text-align: center;
-    }
-}
-
-
-@media (max-width: 1000px) {
-
-   
-    .join {
-        position: absolute;
-        bottom: 40px;  
-        right: 20px;
-        width: 120px;
+    .grid section {
+        width: 95%;
+        min-height: auto;
         padding: 10px;
-        font-size: 14px;
-        border-radius: 20px;
-        background-color: #000;
-        color: white;
-        text-align: center;
-        z-index: 10;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     }
 
+    .list section {
+        grid-template-columns: 1fr;
+        padding: 8px;
+    }
 
-    .spotlights {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
+    /* Home page specific */
+    #home_page {
         width: 100%;
     }
 
-    .sportlight-card {
-        width: 90%;
-        margin: 0 auto;
-        padding: 15px;
-        background: white;
-        border-radius: 8px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    .hero {
+        height: 300px;
     }
 
-    
-    .company-card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 15px;
-        margin-bottom: 15px;
+    .join {
+        bottom: 10px;
+        right: 10px;
+        padding: 8px 15px;
+        font-size: 16px;
     }
 
-   
     .grid-weather {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
+        grid-template-columns: 1fr;
     }
 
-    .current,
-    .forecast {
+    .grid-weather section {
+        padding: 10px;
+    }
+
+    .spotlights {
+        grid-template-columns: 1fr;
+    }
+
+    /* Form adjustments */
+    form {
         padding: 15px;
-        background: #f8f8f8;
-        border-radius: 8px;
     }
 
-    #weatherIcon {
-        width: 60px;
-        height: 60px;
-        margin: 0 auto 10px;
+    form label {
+        font-size: 16px;
     }
-
-
-    h2,
-    h3 {
-        color: #333;
-        margin-bottom: 15px;
-    }
-
-   
-    .sportlight-website:hover {
-        background: #ffa22d;
-        transform: scale(1.05);
-        transition: all 0.3s ease;
-    }
-
 
     form input,
-    form select,
     form textarea {
-        width: 90% !important;
-        margin: 8px auto;
+        font-size: 14px;
+        padding: 6px;
     }
 
-
-    footer div {
-        margin-bottom: 15px;
+    fieldset {
         padding: 10px;
     }
-}
 
-
-@media (max-width: 480px) {
-    .join {
-        bottom: 30px;
-        right: 15px;
-        width: 110px;
-        font-size: 13px;
+    fieldset legend {
+        font-size: 16px;
     }
 
+    #sendForm {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    /* Modal adjustments */
+    dialog {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .modal-content {
+        flex-direction: column;
+    }
+
+    #card {
+        width: 100%;
+        height: 60px;
+        margin: 0;
+    }
+
+    #close-modal {
+        margin: 10px auto 0;
+    }
+
+    /* Discover page */
+    #discoverInfo {
+        grid-template-columns: 1fr;
+    }
+
+    .discoverInfo section {
+        padding: 10px;
+    }
+
+    .discoverCard img {
+        height: 120px;
+    }
+
+    .discoverCalendar iframe {
+        height: 250px;
+    }
+
+    .lazyImages img {
+        margin: 10px auto;
+    }
+
+    /* Thank you page */
+    #thanks h1 {
+        font-size: 1.5rem;
+        margin: 20px 0;
+    }
+
+    #formData {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    /* Footer adjustments */
+    footer {
+        grid-template-columns: 1fr;
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    .social img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Utility classes for mobile */
+    .mobile-hidden {
+        display: none !important;
+    }
+
+    .mobile-full-width {
+        width: 100% !important;
+    }
+
+    .mobile-text-center {
+        text-align: center !important;
+    }
+
+    /* Weather adjustments */
+    #weatherIcon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .currentParagraphs p,
+    .forecastParagraphs p {
+        font-size: 14px;
+    }
+
+    /* Company cards */
+    .company-card img {
+        max-width: 80px;
+    }
+
+    .company-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .company-card p {
+        font-size: 0.8rem;
+    }
+
+    /* Spotlight cards */
     .sportlight-card {
-        width: 95%;
         padding: 10px;
     }
 
-    .currentParagraphs p {
-        font-size: 13px;
+    .sportlight-name {
+        font-size: 1.1rem;
+    }
+
+    .sportlight-tagline {
+        font-size: 0.8rem;
+    }
+
+    .sportlight-website {
+        width: 100px;
+        padding: 6px;
+        font-size: 0.8rem;
     }
 }

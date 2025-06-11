@@ -1,0 +1,85 @@
+/* Mobile Spotlight Card Adjustments */
+@media only screen and (max-width: 768px) {
+
+    /* Spotlight cards */
+    .sportlight-card {
+        padding: 10px;
+        margin: 0 auto 15px;
+        max-width: 300px;
+        min-height: 180px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .sportlight-name {
+        font-size: 1.1rem;
+        margin-bottom: 5px;
+    }
+
+    .sportlight-tagline {
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+
+    .sportlight-card img {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto 5px;
+    }
+
+    .sportlight-email,
+    .sportlight-phone {
+        font-size: 0.8rem;
+        margin: 3px 0;
+        text-align: center;
+    }
+
+    .sportlight-website {
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        width: 100px;
+        margin: 8px auto 0;
+    }
+
+    /* Maintain size for other cards */
+    .events,
+    .current,
+    .forecast {
+        padding: 15px;
+        min-height: 200px;
+        max-width: 100%;
+    }
+
+    .grid-weather h3 {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+
+    #weatherIcon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .currentParagraphs p,
+    .forecastParagraphs p {
+        font-size: 0.9rem;
+        margin: 4px 0;
+    }
+
+    /* Header adjustments */
+    header {
+        padding: 8px;
+    }
+
+    header h1 {
+        font-size: 1.3rem;
+    }
+
+    header h4 {
+        font-size: 0.8rem;
+        margin-top: -15px;
+    }
+
+    .titleImage {
+        height: 60px;
+    }
+}
