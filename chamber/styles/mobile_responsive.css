@@ -68,4 +68,74 @@
     .social {
         justify-content: center;
     }
+        /* Ajustement de l'image Hero */
+        .positionHero {
+            height: auto !important;
+            padding: 0 !important;
+        }
+    
+        .hero {
+            height: 200px !important;
+            width: 100% !important;
+            object-fit: cover !important;
+            margin: 0 auto !important;
+        }
+    
+        .join {
+            position: relative !important;
+            margin: 10px auto 20px !important;
+            width: 80% !important;
+            right: auto !important;
+            bottom: auto !important;
+        }
+                /* Organisation des cartes */
+                .grid-weather {
+                    display: flex !important;
+                    flex-direction: column !important;
+                    gap: 15px !important;
+                }
+        
+                .grid-weather section {
+                    width: 100% !important;
+                    margin: 0 !important;
+                    padding: 15px !important;
+                }
+        
+                .spotlights {
+                    display: flex !important;
+                    flex-direction: column !important;
+                    gap: 20px !important;
+                }
+        
+                .sportlight-card {
+                    width: 100% !important;
+                    margin: 0 auto 20px !important;
+                    padding: 15px !important;
+                    box-sizing: border-box !important;
+                }
+                                /* Correction du tableau météo */
+                                .grid-weather table {
+                                    width: 100% !important;
+                                    border-collapse: collapse !important;
+                                }
+                
+                                .grid-weather td {
+                                    padding: 8px !important;
+                                    border: 1px solid #ddd !important;
+                                    vertical-align: top !important;
+                                }
+                                                                /* Textes et titres */
+                                                                h1,
+                                                                h2,
+                                                                h3,
+                                                                h4 {
+                                                                    font-size: 1.5rem !important;
+                                                                    margin: 10px 0 !important;
+                                                                    text-align: center !important;
+                                                                }
+                                
+                                                                p {
+                                                                    font-size: 0.9rem !important;
+                                                                    line-height: 1.4 !important;
+                                                                }
 }
