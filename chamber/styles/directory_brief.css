@@ -747,4 +747,10 @@ footer div {
           grid-template-columns: auto 1fr auto;
       }
   }
+  .hero {
+      max-height: 550px;
+      object-fit: cover;
+      width: 100%;
+      height: auto;
+  }
 }

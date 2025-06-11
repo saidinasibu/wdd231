@@ -451,3 +451,14 @@ document.querySelectorAll('.sidebar a').forEach(link => {
         link.classList.add('active');
     }
 });
+
+window.addEventListener('resize', function () {
+    if (window.innerWidth > 768) {
+        const menu = document.getElementById('menu');
+        if (menu) {
+            menu.classList.remove('open');
+            const menuToggle = document.getElementById('menuToggle');
+            if (menuToggle) menuToggle.textContent = '☰';
+        }
+    }
+});
