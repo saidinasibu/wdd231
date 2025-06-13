@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "name": "Tacacá",
+        "url_photo": "tacaca.png",
+        "description": "Of indigenous origin, Tacacá is an almost liquid porridge served in gourds and sold by 'tacacazeiras', generally at dusk, on the corner of the main streets of the cities of Pará, especially Belém. It is made up of a mixture that contains tucupi, cooked tapioca starch. , jambu and dried shrimp."
+    },
+
+    {
+        "id": 2,
+        "name": "Maniçoba",
+        "url_photo": "manicoba.jpg",
+        "description": "The dish takes at least a week to make, as the manioc leaf (the cassava plant), after being ground, must be cooked for at least four days with the intention of eliminating the hydrocyanic acid it contains. After that, the charque, bacon, tripe, mocotó, ears, feet and salted pork ribs, chorizo, sausage and paio are added, practically the same ingredients as a complete feijoada. It is served with white rice, water flour."
+    },    
+
+    {
+        "id": 3,
+        "name": "Mujica",
+        "url_photo": "mujica.png",
+        "description": "It is a creamy dish that can be made from fish flour known as piracuí, crab paste or crab."
+    },
+
+    {
+        "id": 4,
+        "name": "Carurú",
+        "url_photo": "caruru.png",
+        "description": "Made with okra, dried and whole shrimp, green seasoning (basilar and chicory), very fine dry flour and palm oil. After boiling the okra, green seasoning and shrimp in water, add the flour and make a mush. Once the pirão is ready, add the well-drained okra, the shrimp already sautéed with all the seasonings and, finally, the palm oil."
+    },
+
+    {
+        "id": 5,
+        "name": "Vatapá",
+        "url_photo": "vatapa.png",
+        "description": "Vatapá is a typical dish of Afro-Brazilian cuisine. Its preparation contains wheat flour, chili pepper, palm oil, onion, garlic, chicory, favaca, and tomato. Prepared with fresh whole prawns and ground dried ones. Normally accompanied by rice and cassava flour. Its consistency is creamy."
+    },
+
+    {
+        "id": 6,
+        "name": "Pato no Tucupi",
+        "url_photo": "pato-no-tucupi.png",
+        "description": "Consisting of duck, tucupi and jambu. Tucupi is a yellow broth extracted from cassava and therefore needs to be cooked for a week. The duck, after roasting, is cut into pieces and boiled in the tucupi, where it soaks for some time. The jambu is boiled in salted water, drained and placed on the duck. It is served with white rice and cassava flour." 
+    },
+
+    {
+        "id": 7,
+        "name": "Chibé",
+        "url_photo": "chibe.jpg",
+        "description": "Tupi word, composed of Che - I, mine - and Ibe or Tibe - broth. It is considered the most Pará of all foods. A drink with a slightly acidic taste. Take cassava flour and water."
+    },
+
+    {
+        "id": 8,
+        "name": "Açaí",
+        "url_photo": "acai.png",
+        "description": "Fruit of the açaí tree, an Amazonian palm tree that reaches more than 20 meters in height, açaí is a small coconut covered in a thin purplish film. From scraping this, the so-called açaí “wine” is obtained, served in bowls throughout the day in Belém. It is usually eaten accompanied by chaque (salted meat), shrimp or fish."
+    },
+
+    {
+        "id": 9,
+        "name": "Pará desserts",
+        "url_photo": "fruits.png",
+        "description": "Pará desserts are rich in fruits, mainly from the Amazon, and liqueurs. The main fruits that characterize regional cuisine are: açaí, cupuaçu, peach palm, guaraná and mango. There are also other regional fruits with a peculiar flavor, such as bacuri, taperebá, jackfruit, muruci, sapodilla, among others."
+    }
+]

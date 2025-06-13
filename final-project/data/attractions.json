@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Historic center",
+        "url_photo": "forte-do-presepio.png",
+        "description": "oioioThe Historic Center marks the birthplace of the city of Belém. The region, where Praça Dom Frei Caetano Brandão is today, preserves buildings built between the 17th and 18th centuries. The architectural complex, which was named Complexo Feliz Lusitânia, can be visited on a quick tour, where you will be able to see how the capital of Pará took the first steps towards becoming the grand Belém."
+    },
+
+    {
+        "id": 2,
+        "name": "Parks",
+        "url_photo": "parks.png",
+        "description": "Belém has many beautiful parks full of life. In them you can find the fauna and flora of the Amazon in addition to the leisure and well-being that they offer. The best-known parks are: Utinga State Park, Mangal as Garças, Bosque Rodrigues Alves, Emílio Gueode Museum, among others."
+    },
+
+    {
+        "id": 3,
+        "name": "Beachs",
+        "url_photo": "beachs.png",
+        "description": "Belém has several freshwater beaches. This means that these beaches are river beaches. Several islands with this attraction have hotels, restaurants and bars. The best-known beach islands are mosqueiro, outeiro, combú and cotijuba."
+    },
+
+    {
+        "id": 4,
+        "name": "Museums",
+        "url_photo": "museum.png",
+        "description": "Belém has several museums that portray the history and past of this beautiful city. Many of these places are centers for research and studies focused on the culture and reality of the Amazon."
+    },
+
+    {
+        "id": 5,
+        "name": "Bars",
+        "url_photo": "bares.png",
+        "description": "The city has several bars, where you can find the unique styles of music from the state of Pará. They are excellent attractions at night in Belém. Among the most popular styles are brega, techno-melode and carimbó."
+    },
+
+    {
+        "id": 6,
+        "name": "Restaurents",
+        "url_photo": "restaurents.png",
+        "description": "Belém has many restaurants of different sizes and important, including 5-star restaurants. Many of them have sophisticated dishes, offering the best of local cuisine."
+    }
+
+]

@@ -1,0 +1,194 @@
+@media (max-width: 1060px) {
+    body {
+        font-size: 15px;
+    }
+
+    .imgCop {
+        height: 350px;
+    }
+    
+    .imgBelem {
+        width: 80%;
+    }
+
+    .grid-weather {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+    }
+
+    .grid-weather h3 {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .currentTitle {
+        grid-row: 1 / 2;
+    }
+
+    .current, .forecast {
+        grid-column: 1 / 3;
+        margin: 20px 0;
+    }
+
+    #weatherIcon {
+        display: flex;
+        margin: 0 0 0 15vw;
+        width: 40%;
+    }
+
+    .currentParagraphs {
+        text-align: center;
+        float: right;
+        margin-top: -20%;
+        margin-right: 20%;
+    }
+
+    .forecastParagraphs {
+        text-align: center;
+        font-size: 15px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 920px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .social img {
+        border-radius: 5px;
+        width: 40px;
+        margin: 10px 0;
+    }
+
+    .social {
+        margin: 0 1vw 0 31vw;
+    }
+
+    footer {
+        grid-template-rows: 2fr 1fr 2fr;
+        grid-template-columns: 1fr;
+        font-size: 13px;
+        height: 300px;
+    }
+
+    footer  p {
+        text-align: center;
+        margin: 0 1vw 0 7vw;
+        width: 80%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 760px) {
+    .card {
+        height: 350px;
+        font-size: 13px;
+    }
+
+    .card-image {
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    main button {
+        width: 100px;
+        font-size: 15px;
+        margin: 0 5vw;
+    }
+
+    .card {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cuisine {
+        margin-left: 15vw;
+    }
+    
+    .current {
+        grid-row: 1fr 1fr 1fr;
+        grid-column: 1fr;
+    }
+
+    #weatherIcon {
+        grid-column: 1 / 3;
+        margin-bottom: 30px;
+    }
+
+    .currentParagraphs {
+        margin: -50px 0 0 0;
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .card {
+        grid-template-columns: 1fr; /* A imagem e o conteúdo ocupam a mesma coluna */
+        grid-template-rows: auto;   /* Ajusta a altura conforme o conteúdo */
+        text-align: center;
+        padding: 0;
+        margin: 0; /* Ajusta a margem para telas menores */
+        height: 350px;
+        width: 100%;
+    }
+
+    .card-image {
+        width: 100%;
+        height: 350px;
+        border-radius: 10px;  /* Mantém o arredondamento dos cantos */
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        object-fit: cover;
+        z-index: -1; /* Coloca a imagem atrás do conteúdo */
+    }
+
+    /* O conteúdo agora vai aparecer sobre a imagem */
+    .card-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Centraliza o conteúdo */
+        color: white; /* Deixa o texto branco para contraste */
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.575); /* Fundo semi-transparente para melhorar legibilidade */
+        border-radius: 10px;
+        width: 90%; /* Ajusta a largura do conteúdo */
+        text-align: center;
+        height: 260px;
+    }
+
+    .card-title {
+        font-size: 12px;  /* Aumenta o tamanho do título */
+        margin-bottom: -20px;
+    }
+
+    .card-description {
+        font-size: 3vw;  /* Aumenta o tamanho da descrição */
+        color: white;
+    }
+
+    .modal-content {
+        background-color: #fff;
+        margin: 15% auto;
+        padding: 20px;
+        border-radius: 5px;
+        height: 150px;
+        width: 50%;
+        text-align: center;
+        text-indent: 0;
+    }
+
+    #modalMessage {
+        margin: 40px 0 0 0;
+    }
+
+    .close {
+        font-size: 25px;
+    }
+}

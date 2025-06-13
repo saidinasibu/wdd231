@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Namibia Safari Wold Tours website provides information about Namibia safari.">
+    <meta name="author" content="Nasibu">
+    <meta property="og:title" content="Namibia Safari Tours."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="images/logo.png"/>
+    <meta property="og:url" content="https://saidinasibu.github.io/wdd231/chamber/directory.html" />
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/index-large.css">
+    <link rel="stylesheet" href="styles/index-middle.css">
+    <link rel="stylesheet" href="styles/index-mobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Corben:wght@400;700&family=Parkinsans:wght@300..800&display=swap">
+    <script src="scripts/project.js" defer></script>
+    <title>Namibia Safari</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img class="titleImage" src="images/logo.png" alt="Namibia Safari Logo">
+        </a>
+        <h1>Namibia Safari </h1>
+        <h4>Wold Tours</h4>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <nav id="menu" class="sidebar">
+            <img class="titleImage" src="images/logo.png" alt="Namibia Safari Logo">
+            <a href="index.html">Dicover Namibia</a>
+            <a href="animals.html">Animals</a>
+            <a href="discover_namibia.html">National Parks</a>
+        </nav>
+    </header>
+    <picture>
+        <source media="(max-width: 300px)" srcset="images/namibia_mobile.jpg" loading="lazy">
+        <source media="(max-width: 800px)" srcset="images/namibia_travel4.jpg" loading="lazy">
+        <img class="imgNam" src="images/namibia_travel4.jpg" alt="Discover Namibia image" loading="lazy">
+    </picture>
+    <main id="home_page">
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <p id="modalMessage"></p>
+            </div>
+        </div>
+        <p>
+            On 30th November 2025, Namibia Safari World Tours invites you to a one-of-a-kind event deep in the wild heart of Etosha
+            National Park.
+            This exclusive experience blends the thrill of safari adventure with the beauty of Namibian culture. Imagine a day spent
+            tracking elephants, lions, and rhinos across Etosha’s vast salt pans — followed by a sunset gathering where local
+            traditions come alive.
+        </p>
+        <p>
+            Join us for a unique blend of wildlife adventure and cultural immersion, featuring:
+            
+            🐘 Guided game drives through Etosha’s rich wildlife territory
+            
+            🌅 Sunset photography in spectacular natural landscapes
+            
+            🍽️ Traditional Namibian dinner under the stars
+            
+            🎶 Live cultural performances from local communities
+        </p>
+        <div class="quote">
+            <p>
+                "The African desert is a vast canvas where time stands still and nature speaks in whispers. Beneath the endless skies and
+                shifting sands lies a world of resilience and mystery. It teaches patience, strength, and the beauty of solitude. Here,
+                every dune tells a story, every breeze carries ancient secrets. In the heart of the desert, we find not emptiness, but a
+                profound connection to life itself."
+            </p>
+            <h5>Nasibu Saidi</h5>
+        </div> 
+        
+        <hr>
+        <h3 class="title">The Story of the Namib Desert The World’s Oldest Desert</h3>
+        <p>
+            Stretching along Namibia’s Atlantic coast lies the breathtaking Namib Desert — a vast sea of sand and stone shaped by
+            wind, time, and silence.
+            Believed to be over 55 million years old, the Namib is the oldest desert on Earth. Its name comes from the Nama word
+            “Namib”, meaning “vast place,” a fitting tribute to its endless horizons and raw, untouched beauty.
+        </p>
+        <p>
+            A Desert Full of Life and History:
+            Despite its harsh environment, the Namib is teeming with life. From the welwitschia plant that can live over 1,000
+            years, to desert-adapted elephants, oryx, and tiny geckos, nature here is as resilient as it is fascinating.
+            
+            This ancient desert also tells human stories — from the San people, among the world’s oldest cultures, to shipwrecks and
+            colonial history scattered along the Skeleton Coast.
+            
+            Iconic Sites in the Namib:
+            🌄 Sossusvlei  home to the world’s tallest red sand dunes
+            
+            🌳 Deadvlei a surreal white clay pan dotted with 900-year-old dead trees
+            
+            🦴 Skeleton Coast mysterious shores littered with whale bones and wrecked ships
+            
+            🏜️ Namib-Naukluft Park – one of Africa’s largest conservation areas
+            
+            With Namibia Safari World Tours, explore the story written in sand — a story of time, survival, and timeless beauty.
+            
+            The Namib Desert isn’t just a landscape. It’s a living legend
+        </p>
+        <picture>
+            <source media="(max-width: 300px)" srcset="images/namibia_mobile.jpg" loading="lazy">
+            <source media="(max-width: 1024px)" srcset="images/namibia_middle.jpg" loading="lazy">
+            <img class="imgBelem" src="images/himba_tribe3.jpg" alt=" descaver Namibia" loading="lazy">
+        </picture>
+        <p>
+            In the remote north of Namibia lives one of Africa’s most iconic indigenous communities — the Himba people. Known for
+            their distinctive red ochre body paint, intricate hairstyles, and deep connection to the land, the Himba are a proud,
+            semi-nomadic tribe who have preserved their traditions for centuries.
+            Visiting the Himba is more than a cultural stop. it's a rare chance to witness a way of life deeply rooted in nature,
+            ancestry, and community.
+        </p>
+        <p>
+            What Makes the Himba Unique:
+            🔴 Red ochre and butterfat adornment, symbolizing beauty and protection
+            
+            🛖 Hand-built homesteads made from mud and wood
+            
+            🔥 Sacred ancestral fire central to their spiritual life
+            
+            👩‍👧 Strong family bonds and matrilineal customs
+            
+            🐐 Livestock-based lifestyle, especially goats and cattle
+            
+            At Namibia Safari World Tours, we offer respectful, guided visits to Himba villages, where guests can learn directly
+            from community members, gain insight into their beliefs, and appreciate the richness of Namibian culture.
+        </p>
+        <p>Using the buttons below you can find lots of information about animals, safari and things to do in Namibia:</p>
+        <button onclick="window.location.assign('animals.html')" class="cuisine">Animals</button>
+        <button onclick="window.location.assign('scover_namibia.html')" class="attractions">National Parks</button>
+
+        <hr>
+        <div class="grid-weather">
+            <section class="current">
+                <h3 class="currentTitle">Current Weather</h3>
+                <img id="weatherIcon" alt="Weather Icon">
+                <div class="currentParagraphs">
+                </div>
+            </section>
+            <section class="forecast">
+                <h3>Weather Forecast</h3>
+                <div class="forecastParagraphs"></div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>
+            <b>Namibia Safari</b><br>
+            3602 Abraham Mashego Street<br>
+            Luxury Hill, Katutura Windhoek, Namibia<br>
+            info@namibiasafari.com.na<br>
+            +264 81 457 64 64
+        </p>
+        <div class="social">
+            <a href="https://github.com/saidinasibu" target="_blank">
+                <img src="images/github-image.png" alt="fb icon">
+            </a>
+            <a href="https://www.linkedin.com/in/davidnasibu/" target="_blank">
+                <img src="images/linkedin.png" alt="linkedin icon">
+            </a>
+        </div>
+        <p>
+            WDD231 Class Project 
+            <br>Nasibu Saidi
+            <br>&copy; <span id="currentyear"></span>
+            Namibia - Safari
+            <br><span id="lastModified"></span>
+        </p>
+    </footer>
+</body>
+</html>

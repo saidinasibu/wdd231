@@ -81,10 +81,7 @@
         padding: 10px !important;
     }
 
-    h1,
-    h2,
-    h3,
-    h4 {
+    h1, h2, h3, h4 {
         font-size: 1.2rem !important;
         margin: 8px 0 !important;
     }
@@ -92,13 +89,13 @@
     p {
         font-size: 0.8rem !important;
     }
-
+    
     /* Découvrir page */
     #discoverInfo {
         display: flex !important;
         flex-direction: column !important;
     }
-
+    
     .discoverInfo section {
         margin-bottom: 15px !important;
     }
