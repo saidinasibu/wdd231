@@ -50,10 +50,11 @@ function closeModal() {
 
 
 //API Weather
-const apiKey = "5ca622b2540cfdbfae0a3d45bc3af423";
-const city = "Belém, BR";
-const units = "metric"; // (°C)
-const lang = "en";      // Language
+const apiKey = "16bb2adec1aa18acac8ea513f7c5ab16";
+const city = "Windhoek, NA";
+const units = "metric";
+const lang = "en";
+
 const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&units=${units}&lang=${lang}&appid=${apiKey}`;
 const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${encodeURIComponent(city)}&units=${units}&lang=${lang}&appid=${apiKey}`;
 
@@ -140,12 +141,12 @@ async function loadCardData() {
         
         let jsonFile, imagesPath;
 
-        if (fileName === 'cuisine.html') {
-            jsonFile = 'data/foods.json';
-            imagesPath = 'images/foods-images/';
-        } else if (fileName === 'attractions.html') {
-            jsonFile = 'data/attractions.json';
-            imagesPath = 'images/attractions-images/';
+        if (fileName === 'animals.html') {
+            jsonFile = 'data/animals.json';
+            imagesPath = 'images/animals/';
+        } else if (fileName === 'discover_namibia.html') {
+            jsonFile = 'data/discover.json';
+            imagesPath = 'images/parks/';
         } else {
             return;
         }
