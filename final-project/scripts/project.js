@@ -26,9 +26,9 @@ function showModal() {
 
     if (modalMessage) {
         if (diasFaltantes > 0) {
-            modalMessage.textContent = `${diasFaltantes} days left until the start of COP-30`;
+            modalMessage.textContent = `${diasFaltantes} days left until the start of Etosha Wilderness Experience`;
         } else {
-            modalMessage.textContent = 'COP-30 has already taken place';
+            modalMessage.textContent = 'Etosha Wilderness Experience has already taken place';
         }
 
         const modal = document.getElementById('myModal');
@@ -36,7 +36,7 @@ function showModal() {
             modal.style.display = 'block';
         }
     } else {
-        console.error('Elemento modalMessage não encontrado no DOM');
+        console.error('Element modalMessage not found in the DOM.');
     }
 }
 
