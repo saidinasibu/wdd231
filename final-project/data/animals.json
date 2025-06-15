@@ -1,68 +1,64 @@
 [
     {
         "id": 1,
-        "name": "The Oryx Symbol of Namibia’s Desert Strength",
+        "name": "🦌The Oryx Symbol of Namibia’s Desert Strength",
         "url_photo": "Gemsbok.webp",
-        "description": "The oryx also known as the gemsbok, is one of Namibia’s most iconic animals — and a true survivor of the desert. With its long, straight horns and striking black-and-white facial markings, the oryx is both elegant and powerful.
-
-Adapted to extreme heat and arid landscapes, oryxes can go for long periods without water, drawing moisture from plants and early morning dew. They are often seen roaming the open plains of Etosha, the dunes of Sossusvlei, and across the Namib Desert,
-
-Majestic and resilient, the oryx is more than just a national symbol — it’s a living emblem of Namibia’s wild beauty."
+        "description": "Also called the gemsbok, the oryx is Namibia’s national animal. With long, sharp horns and a striking face, it survives extreme heat and arid landscapes, especially in the Namib Desert and Etosha’s savannahs."
     },
 
     {
         "id": 2,
-        "name": "Maniçoba",
-        "url_photo": "manicoba.jpg",
-        "description": "The dish takes at least a week to make, as the manioc leaf (the cassava plant), after being ground, must be cooked for at least four days with the intention of eliminating the hydrocyanic acid it contains. After that, the charque, bacon, tripe, mocotó, ears, feet and salted pork ribs, chorizo, sausage and paio are added, practically the same ingredients as a complete feijoada. It is served with white rice, water flour."
+        "name": "🐘 Elephant The Gentle Giant",
+        "url_photo": "elephant.webp",
+        "description": "The African elephant is the largest land mammal, known for its intelligence, memory, and strong social bonds. In Namibia, desert-adapted elephants thrive in dry regions like Damaraland, showcasing their ability to survive in harsh environments."
     },    
 
     {
         "id": 3,
-        "name": "Mujica",
-        "url_photo": "mujica.png",
-        "description": "It is a creamy dish that can be made from fish flour known as piracuí, crab paste or crab."
+        "name": "🦁 Lion The King of the Wild",
+        "url_photo": "lion.webp",
+        "description": "Powerful and majestic, the lion is one of Namibia’s top predators. From the open plains of Etosha to the remote deserts of the northwest, even desert-adapted lions roam the land — fierce yet iconic symbols of Africa."
     },
 
     {
         "id": 4,
-        "name": "Carurú",
-        "url_photo": "caruru.png",
-        "description": "Made with okra, dried and whole shrimp, green seasoning (basilar and chicory), very fine dry flour and palm oil. After boiling the okra, green seasoning and shrimp in water, add the flour and make a mush. Once the pirão is ready, add the well-drained okra, the shrimp already sautéed with all the seasonings and, finally, the palm oil."
+        "name": "🦏 Rhino Ancient and Endangered",
+        "url_photo": "rhino.webp",
+        "description": "Namibia protects both black and white rhinos, with the largest population of free-roaming black rhinos in the world. These powerful herbivores are a conservation success story and a rare sight on safari."
     },
 
     {
         "id": 5,
-        "name": "Vatapá",
-        "url_photo": "vatapa.png",
-        "description": "Vatapá is a typical dish of Afro-Brazilian cuisine. Its preparation contains wheat flour, chili pepper, palm oil, onion, garlic, chicory, favaca, and tomato. Prepared with fresh whole prawns and ground dried ones. Normally accompanied by rice and cassava flour. Its consistency is creamy."
+        "name": "🐆 Cheetah Master of Speed",
+        "url_photo": "cheetah.webp",
+        "description": "The cheetah is the fastest land animal, capable of reaching 110 km/h in short bursts. Namibia hosts the largest wild cheetah population, found mostly in open farmlands and private reserves."
     },
 
     {
         "id": 6,
-        "name": "Pato no Tucupi",
-        "url_photo": "pato-no-tucupi.png",
-        "description": "Consisting of duck, tucupi and jambu. Tucupi is a yellow broth extracted from cassava and therefore needs to be cooked for a week. The duck, after roasting, is cut into pieces and boiled in the tucupi, where it soaks for some time. The jambu is boiled in salted water, drained and placed on the duck. It is served with white rice and cassava flour." 
+        "name": "🦒 Giraffe Tall and Graceful",
+        "url_photo": "giraffe.webp",
+        "description": "With their towering height and gentle movement, giraffes are peaceful browsers found across Namibia’s woodlands and savannahs. Watching them walk at sunset is a truly magical safari moment" 
     },
 
     {
         "id": 7,
-        "name": "Chibé",
-        "url_photo": "chibe.jpg",
-        "description": "Tupi word, composed of Che - I, mine - and Ibe or Tibe - broth. It is considered the most Pará of all foods. A drink with a slightly acidic taste. Take cassava flour and water."
+        "name": "🐍 Boomslang The Elusive Tree Snake",
+        "url_photo": "Boomslang.webp",
+        "description": "This shy, highly venomous snake lives mostly in trees and is rarely seen. Despite its deadly venom, the boomslang avoids humans and plays an important role in controlling small animal populations."
     },
 
     {
         "id": 8,
-        "name": "Açaí",
-        "url_photo": "acai.png",
-        "description": "Fruit of the açaí tree, an Amazonian palm tree that reaches more than 20 meters in height, açaí is a small coconut covered in a thin purplish film. From scraping this, the so-called açaí “wine” is obtained, served in bowls throughout the day in Belém. It is usually eaten accompanied by chaque (salted meat), shrimp or fish."
+        "name": "🦓 Zebra Striped and Social",
+        "url_photo": "Zebra.webp",
+        "description": "Namibia is home to both plains zebras and mountain zebras, known for their unique stripe patterns. Often seen in large herds, they bring rhythm and contrast to the dry landscape."
     },
 
     {
         "id": 9,
-        "name": "Pará desserts",
-        "url_photo": "fruits.png",
-        "description": "Pará desserts are rich in fruits, mainly from the Amazon, and liqueurs. The main fruits that characterize regional cuisine are: açaí, cupuaçu, peach palm, guaraná and mango. There are also other regional fruits with a peculiar flavor, such as bacuri, taperebá, jackfruit, muruci, sapodilla, among others."
+        "name": "🐦 Lilac-breasted Roller The Flying Rainbow",
+        "url_photo": "lilac_breasted_roller.webp",
+        "description": "One of Namibia’s most colorful birds, the lilac-breasted roller stuns with its vivid plumage and acrobatic flight. Commonly seen perched in trees, it’s a favorite for photographers and bird lovers."
     }
 ]
