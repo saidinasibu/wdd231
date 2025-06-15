@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 1060px) {
     body {
         font-size: 15px;
     }
@@ -8,7 +8,7 @@
     }
     
     .imgHimba {
-        width: 80%;
+        height: 350px;
     }
 
     .grid-weather {

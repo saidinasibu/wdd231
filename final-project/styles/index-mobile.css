@@ -13,13 +13,13 @@
     }
 
     h1 {
-        margin-top: 20px;
-        font-size: 12px;
+        margin-top: 10px;
+        font-size: 6px;
     }
 
     h4 {
-        font-size: 10px;
-        margin-top: -2px;
+        font-size: 5px;
+        margin-top: -1px;
     }
 
     .title {
@@ -38,7 +38,7 @@
     }
 
     .imgHimba {
-        height: 90%;
+        height: 200px;
     }
 
     .quote {
