@@ -191,7 +191,7 @@ hr {
     margin-top: 40px;
 }
 
-.imgCop {
+.imgHimba {
     display: flex;
     margin: 0 auto;
     width: 100%;
@@ -202,10 +202,10 @@ hr {
     margin: 20px 1vw;
 }
 
-.imgBelem {
+.imgNam {
     display: flex;
     margin: 0  auto;
-    width: 50%;
+    width: 100%;
     box-shadow: 0 0 30px var(--secondary-color);
 }
 
@@ -224,7 +224,7 @@ main button:hover {
     color: black;
 }
 
-.cuisine {
+.animals {
     margin-left: 25vw;
 }
 
