@@ -33,11 +33,11 @@
         height: 20px;
     }
     
-    .imgCop{
+    .imgNam{
         height: 200px;
     }
 
-    .imgBelem {
+    .imgHimba {
         width: 90%;
     }
 
@@ -57,7 +57,7 @@
     }
 
 
-    .cuisine, .attractions {
+    .animals, .discover {
         margin: 20px 5vw 0 25vw;
     }
 
@@ -84,7 +84,7 @@
         margin: 0;
     }
 
-    .cuisine {
+    .animals {
         margin-left: 4vw;
     }
 }
